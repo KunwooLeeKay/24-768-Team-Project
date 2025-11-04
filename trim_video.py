@@ -1,7 +1,7 @@
 import cv2
 import os
 
-video_path = "input/input_vid.mp4"
+video_path = "/Users/kunwoomac/Downloads/YTDown.com_YouTube_Armstrong-vs-Park-Center-Boys-High-Schoo_Media_smCcIn8G6jo_002_720p.mp4"
 
 # from 7:00 - 7:40, 7:41 - 8:15, 8:22 -8:44, ...
 
@@ -16,7 +16,7 @@ end_time = start_time + 40
 start_frame = int(start_time * fps)
 end_frame = int(end_time * fps)
 
-out = cv2.VideoWriter("output/trimmed_vid.mp4", cv2.VideoWriter_fourcc(*"mp4v"), fps, (width, height))
+out = cv2.VideoWriter("input/trimmed_vid_1.mp4", cv2.VideoWriter_fourcc(*"mp4v"), fps, (width, height))
 
 for frame_num in range(start_frame, end_frame):
     vid.set(cv2.CAP_PROP_POS_FRAMES, frame_num)

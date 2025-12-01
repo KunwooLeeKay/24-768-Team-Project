@@ -1,3 +1,4 @@
 *.caffemodel filter=lfs diff=lfs merge=lfs -text
 *.mp4 filter=lfs diff=lfs merge=lfs -text
 input/*.mp4 filter=lfs diff=lfs merge=lfs -text
+output/*.mp4 filter=lfs diff=lfs merge=lfs -text

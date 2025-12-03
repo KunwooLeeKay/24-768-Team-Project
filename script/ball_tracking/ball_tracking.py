@@ -118,6 +118,6 @@ def run_professional_tracker(video_path, output_path):
     print(f"Done! Saved to {output_path}")
 
 if __name__ == "__main__":
-    input_video = "C:/Users/ZhengCao/Desktop/CMU/CVE/CVE_Project/input/soccer3.mp4" # Path to input video
-    output_video = "C:/Users/ZhengCao/Desktop/CMU/CVE/CVE_Project/output/ball_tracking/output_robust_3.mp4"  # Path to save output video
+    input_video = "C:/Users/ZhengCao/Desktop/CMU/CVE/CVE_Project/input/video_clip.mp4" # Path to input video
+    output_video = "C:/Users/ZhengCao/Desktop/CMU/CVE/CVE_Project/output/ball_tracking/video_clip_output.mp4"  # Path to save output video
     run_professional_tracker(input_video, output_video)

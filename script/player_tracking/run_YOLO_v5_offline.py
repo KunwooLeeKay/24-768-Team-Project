@@ -6,7 +6,7 @@ from collections import defaultdict
 import sys
 
 # --- CONFIGURATION ---
-INPUT_PATH = "/Users/kunwoomac/CodeSpace/24-768-Team-Project/input/trimmed_vid_1.mp4"
+INPUT_PATH = '/Users/kunwoomac/CodeSpace/24-768-Team-Project/input/video_clip.mp4'
 OUTPUT_PATH = "/Users/kunwoomac/CodeSpace/24-768-Team-Project/output/YOLO_v5_offline.mp4"
 MODEL_SIZE = "m" # options: s, n
 

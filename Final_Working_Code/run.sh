@@ -1,0 +1,3 @@
+export ROBOFLOW_API_KEY="PUT YOUR API KEY HERE"
+
+python FINAL_RUN.py
